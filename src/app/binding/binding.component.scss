@@ -1,16 +1,9 @@
-button {
-  padding: 10px 10px;
-  margin: 10px;
-}
-
-.more {
-  background: red;
-}
-
-.less {
-  background: yellow;
-}
-
-.iphone {
-  width: 20%;
+.products_flex-container {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
 }

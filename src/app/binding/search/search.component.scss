@@ -1,0 +1,21 @@
+.search-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.search {
+  min-width: 30vw;
+  padding: 10px;
+}
+
+.submit-search-button {
+  min-width: 100px;
+}
+.disable {
+  cursor: not-allowed;
+  font-weight: 800;
+}
+
+.available {
+}

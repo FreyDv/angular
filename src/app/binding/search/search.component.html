@@ -1,0 +1,16 @@
+<!--<input type="search" [value]="searchString" (input)="onSearchChange($event)"> string interpolation and event binding-->
+<div class="search-container">
+  <input class="search" type="search" [(ngModel)]="searchString" #inputElement />
+  <button
+    type="submit"
+    [ngClass]="{
+      'submit-search-button': true,
+      available: !isSearchDisabled(),
+      disable: isSearchDisabled()
+    }"
+    (click)="onButtonClick(inputElement)">
+    Search
+  </button>
+</div>
+
+<p *ngIf="searchString.length > 2">Search result for: {{ searchString }}</p>

@@ -1,33 +1,43 @@
-import { Component } from '@angular/core';
-import {NgIf} from "@angular/common";
-
+import { Component, OnInit, signal } from '@angular/core';
+import { NgForOf, NgIf } from '@angular/common';
+import { SearchComponent } from './search/search.component';
+import products from './products-new.json';
+import { Product } from './product.dto';
+import { ProductComponent } from './product/product.component';
+import { InStockFilterComponent } from './in-stock-filter/in-stock-filter.component';
+import { FilterOptionsNamesEnum } from './in-stock-filter/filterOptionsNamesEnum';
 @Component({
   selector: 'app-binding',
   standalone: true,
-  imports: [
-    NgIf
-  ],
+  imports: [NgIf, SearchComponent, ProductComponent, NgForOf, InStockFilterComponent],
   templateUrl: './binding.component.html',
-  styleUrl: './binding.component.scss'
+  styleUrl: './binding.component.scss',
 })
 export class BindingComponent {
+  protected readonly products: Product[] = products;
+  protected readonly length = length;
 
-  data = {
-    name: "IPnone",
-    model: "XR",
-    price: 5.67,
-    quantity: 10
+  filterValue: FilterOptionsNamesEnum = FilterOptionsNamesEnum.ALL;
+
+  searchString: string;
+
+  onSearchChanged(val: string) {
+    this.searchString = val;
   }
 
-  needBy = 0
-
-  more(){
-    this.needBy === this.data.quantity ? this.needBy : this.needBy++
+  onFilterChanged(filterValue: FilterOptionsNamesEnum) {
+    this.filterValue = filterValue;
   }
 
-  less(){
-    this.needBy !== 0 ? this.needBy-- : this.needBy
+  countExisting(products: Product[]): {
+    all: number;
+    inStock: number;
+    outOfStock: number;
+  } {
+    const all = products.length;
+    const inStock = products.filter(el => el.inStock > 0).length;
+    return { all, inStock, outOfStock: all - inStock };
   }
+
+  protected readonly FilterOptionsNamesEnum = FilterOptionsNamesEnum;
 }
-
-

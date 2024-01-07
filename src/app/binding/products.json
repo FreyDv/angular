@@ -1,0 +1,453 @@
+[
+  {
+    "name": "Smartphone X",
+    "model": "X-2023",
+    "pImage": "https://s.ek.ua/jpg_zoom1/2461074.jpg",
+    "price": 199,
+    "color": "Black",
+    "inStock": 15,
+    "discount": 10,
+    "description": "High-performance smartphone with advanced features."
+  },
+  {
+    "name": "Laptop Pro",
+    "model": "ProBook-2023",
+    "pImage": "https://s.ek.ua/jpg_zoom1/1279866.jpg",
+    "price": 899,
+    "color": "Silver",
+    "inStock": 8,
+    "discount": 15,
+    "description": "Powerful laptop for professional use with high-speed processing."
+  },
+  {
+    "name": "Wireless Earbuds",
+    "model": "AirBuds-2023",
+    "pImage": "https://s.ek.ua/jpg_zoom1/1848815.jpg",
+    "price": 79,
+    "color": "White",
+    "inStock": 25,
+    "discount": 5,
+    "description": "Immerse yourself in music with these sleek and comfortable wireless earbuds."
+  },
+  {
+    "name": "Fitness Tracker",
+    "model": "FitTech-2023",
+    "pImage": "https://s.ek.ua/jpg_zoom1/2047059.jpg",
+    "price": 49,
+    "color": "Blue",
+    "inStock": 5,
+    "discount": 20,
+    "description": "Stay fit and healthy with this feature-packed fitness tracker."
+  },
+  {
+    "name": "Coffee Maker",
+    "model": "BrewMaster-2023",
+    "pImage": "https://example.com/coffee_maker.jpg",
+    "price": 129,
+    "color": "Red",
+    "inStock": 12,
+    "discount": 12,
+    "description": "Brew your favorite coffee at home with this stylish and efficient coffee maker."
+  },
+  {
+    "name": "4K Smart TV",
+    "model": "UltraView-2023",
+    "pImage": "https://example.com/4k_smart_tv.jpg",
+    "price": 599,
+    "color": "Black",
+    "inStock": 20,
+    "discount": 8,
+    "description": "Immerse yourself in stunning visuals with this 4K smart TV for an unparalleled viewing experience."
+  },
+  {
+    "name": "Digital Camera",
+    "model": "CapturePro-2023",
+    "pImage": "https://example.com/digital_camera.jpg",
+    "price": 349,
+    "color": "Silver",
+    "inStock": 10,
+    "discount": 12,
+    "description": "Capture moments with professional quality using this advanced digital camera with high-resolution imaging."
+  },
+  {
+    "name": "Gaming Console",
+    "model": "GameMaster-2023",
+    "pImage": "https://example.com/gaming_console.jpg",
+    "price": 449,
+    "color": "Matte Black",
+    "inStock": 18,
+    "discount": 10,
+    "description": "Experience gaming at its best with this powerful gaming console designed for hardcore gamers."
+  },
+  {
+    "name": "Portable Bluetooth Speaker",
+    "model": "BeatBox-2023",
+    "pImage": "https://example.com/portable_speaker.jpg",
+    "price": 89,
+    "color": "Red",
+    "inStock": 28,
+    "discount": 5,
+    "description": "Enjoy your favorite tunes on the go with this compact and powerful portable Bluetooth speaker."
+  },
+  {
+    "name": "Smart Home Security System",
+    "model": "SecureGuard-2023",
+    "pImage": "https://example.com/security_system.jpg",
+    "price": 199,
+    "color": "White",
+    "inStock": 15,
+    "discount": 8,
+    "description": "Keep your home safe and secure with this smart home security system featuring advanced surveillance capabilities."
+  },
+  {
+    "name": "Wireless Charging Pad",
+    "model": "ChargeHub-2023",
+    "pImage": "https://example.com/wireless_charging_pad.jpg",
+    "price": 39,
+    "color": "White",
+    "inStock": 22,
+    "discount": 6,
+    "description": "Charge your devices effortlessly with this sleek wireless charging pad compatible with various devices."
+  },
+  {
+    "name": "Ergonomic Office Chair",
+    "model": "ComfortPro-2023",
+    "pImage": "https://example.com/ergonomic_chair.jpg",
+    "price": 149,
+    "color": "Gray",
+    "inStock": 14,
+    "discount": 10,
+    "description": "Stay comfortable during long work hours with this ergonomic office chair designed for maximum support."
+  },
+  {
+    "name": "Smart Thermostat",
+    "model": "TempControl-2023",
+    "pImage": "https://example.com/smart_thermostat.jpg",
+    "price": 79,
+    "color": "Silver",
+    "inStock": 25,
+    "discount": 5,
+    "description": "Efficiently control your home's temperature with this smart thermostat featuring intuitive controls and energy-saving features."
+  },
+  {
+    "name": "Stainless Steel Blender",
+    "model": "BlendMaster-2023",
+    "pImage": "https://example.com/blender.jpg",
+    "price": 69,
+    "color": "Stainless Steel",
+    "inStock": 17,
+    "discount": 8,
+    "description": "Create delicious smoothies and shakes with this powerful stainless steel blender designed for durability and performance."
+  },
+  {
+    "name": "Convertible Backpack",
+    "model": "FlexPack-2023",
+    "pImage": "https://example.com/convertible_backpack.jpg",
+    "price": 59,
+    "color": "Navy Blue",
+    "inStock": 20,
+    "discount": 7,
+    "description": "Stay organized and stylish with this versatile convertible backpack that adapts to your needs, whether for work or travel."
+  },
+  {
+    "name": "Robot Vacuum Cleaner",
+    "model": "CleanBot-2023",
+    "pImage": "https://example.com/robot_vacuum.jpg",
+    "price": 249,
+    "color": "Rose Gold",
+    "inStock": 12,
+    "discount": 15,
+    "description": "Effortlessly maintain a clean home with this smart robot vacuum cleaner equipped with advanced cleaning technology."
+  },
+  {
+    "name": "HD Webcam",
+    "model": "VisionCam-2023",
+    "pImage": "https://example.com/hd_webcam.jpg",
+    "price": 79,
+    "color": "Black",
+    "inStock": 18,
+    "discount": 10,
+    "description": "Upgrade your video conferencing experience with this high-definition webcam for crystal-clear video and audio."
+  },
+  {
+    "name": "Solar-Powered Outdoor Lights",
+    "model": "SolarGlow-2023",
+    "pImage": "https://example.com/solar_lights.jpg",
+    "price": 49,
+    "color": "Warm White",
+    "inStock": 24,
+    "discount": 5,
+    "description": "Illuminate your outdoor space sustainably with these stylish solar-powered outdoor lights."
+  },
+  {
+    "name": "Digital Drawing Tablet",
+    "model": "ArtisticPad-2023",
+    "pImage": "https://example.com/digital_drawing_tablet.jpg",
+    "price": 129,
+    "color": "Graphite",
+    "inStock": 15,
+    "discount": 8,
+    "description": "Unleash your creativity with precision using this digital drawing tablet designed for artists and designers."
+  },
+  {
+    "name": "Portable Power Bank",
+    "model": "PowerBoost-2023",
+    "pImage": "https://example.com/portable_power_bank.jpg",
+    "price": 29,
+    "color": "Sky Blue",
+    "inStock": 30,
+    "discount": 3,
+    "description": "Stay charged on the go with this compact and powerful portable power bank for your devices."
+  },
+  {
+    "name": "Smart Wi-Fi Thermostat",
+    "model": "EcoTemp-2023",
+    "pImage": "https://example.com/smart_thermostat.jpg",
+    "price": 129,
+    "color": "White",
+    "inStock": 20,
+    "discount": 7,
+    "description": "Efficiently control your home's climate with this smart Wi-Fi thermostat that learns your preferences and saves energy."
+  },
+  {
+    "name": "Foldable Electric Scooter",
+    "model": "EcoRide-2023",
+    "pImage": "https://example.com/electric_scooter.jpg",
+    "price": 349,
+    "color": "Charcoal Gray",
+    "inStock": 10,
+    "discount": 12,
+    "description": "Commute in style with this foldable electric scooter featuring a powerful motor and long-lasting battery."
+  },
+  {
+    "name": "Wireless Gaming Mouse",
+    "model": "GamerPro-2023",
+    "pImage": "https://example.com/gaming_mouse.jpg",
+    "price": 59,
+    "color": "RGB Spectrum",
+    "inStock": 25,
+    "discount": 8,
+    "description": "Gain a competitive edge with this wireless gaming mouse designed for precision and customizable lighting effects."
+  },
+  {
+    "name": "Smart Home Lighting Kit",
+    "model": "Illuminate-2023",
+    "pImage": "https://example.com/smart_lighting_kit.jpg",
+    "price": 179,
+    "color": "Multicolor",
+    "inStock": 15,
+    "discount": 10,
+    "description": "Transform your home's ambiance with this smart lighting kit that allows you to control color and intensity from your smartphone."
+  },
+  {
+    "name": "Digital Air Fryer",
+    "model": "CrispMaster-2023",
+    "pImage": "https://example.com/digital_air_fryer.jpg",
+    "price": 89,
+    "color": "Rose Gold",
+    "inStock": 18,
+    "discount": 6,
+    "description": "Cook healthier meals with this digital air fryer featuring advanced temperature control and a sleek design."
+  },
+  {
+    "name": "Noise-Canceling Headphones",
+    "model": "QuietBeat-2023",
+    "pImage": "https://example.com/noise_cancelling_headphones.jpg",
+    "price": 149,
+    "color": "Midnight Black",
+    "inStock": 12,
+    "discount": 15,
+    "description": "Immerse yourself in your favorite music with these premium noise-canceling headphones for an uninterrupted audio experience."
+  },
+  {
+    "name": "Smart Coffee Maker",
+    "model": "BrewTech-2023",
+    "pImage": "https://example.com/smart_coffee_maker.jpg",
+    "price": 129,
+    "color": "Stainless Steel",
+    "inStock": 10,
+    "discount": 12,
+    "description": "Brew your coffee with precision using this smart coffee maker that allows customization through a mobile app."
+  },
+  {
+    "name": "Fitness Smartwatch",
+    "model": "FitTech Pro-2023",
+    "pImage": "https://example.com/fitness_smartwatch.jpg",
+    "price": 179,
+    "color": "Slate Gray",
+    "inStock": 25,
+    "discount": 8,
+    "description": "Track your fitness goals and stay connected with this feature-rich smartwatch designed for active lifestyles."
+  },
+  {
+    "name": "Portable Espresso Machine",
+    "model": "EspressoGo-2023",
+    "pImage": "https://example.com/portable_espresso_machine.jpg",
+    "price": 89,
+    "color": "Copper",
+    "inStock": 15,
+    "discount": 10,
+    "description": "Enjoy a perfect espresso anywhere with this compact and portable espresso machine for coffee lovers on the go."
+  },
+  {
+    "name": "Bluetooth Karaoke Microphone",
+    "model": "SingStar-2023",
+    "pImage": "https://example.com/karaoke_microphone.jpg",
+    "price": 49,
+    "color": "Rose Gold",
+    "inStock": 18,
+    "discount": 6,
+    "description": "Unleash your inner star with this Bluetooth karaoke microphone that brings fun and entertainment to any gathering."
+  },
+  {
+    "name": "Ultra-Portable Bluetooth Speaker",
+    "model": "TravelTunes-2023",
+    "pImage": "https://example.com/portable_bluetooth_speaker.jpg",
+    "price": 49,
+    "color": "Midnight Blue",
+    "inStock": 22,
+    "discount": 5,
+    "description": "Take your music on the go with this ultra-portable Bluetooth speaker, designed for travel and outdoor adventures."
+  },
+  {
+    "name": "Smart Home Surveillance Camera",
+    "model": "SecureView-2023",
+    "pImage": "https://example.com/surveillance_camera.jpg",
+    "price": 129,
+    "color": "Graphite",
+    "inStock": 14,
+    "discount": 10,
+    "description": "Monitor your home with precision using this smart home surveillance camera with advanced motion detection and two-way audio."
+  },
+  {
+    "name": "Digital Fitness Scale",
+    "model": "FitScale-2023",
+    "pImage": "https://example.com/digital_fitness_scale.jpg",
+    "price": 39,
+    "color": "White",
+    "inStock": 24,
+    "discount": 8,
+    "description": "Track your fitness journey with this digital fitness scale that provides accurate weight and body composition measurements."
+  },
+  {
+    "name": "Smart Door Lock System",
+    "model": "SecureLock-2023",
+    "pImage": "https://example.com/smart_door_lock.jpg",
+    "price": 179,
+    "color": "Brushed Nickel",
+    "inStock": 17,
+    "discount": 12,
+    "description": "Enhance your home security with this smart door lock system featuring keyless entry and remote control capabilities."
+  },
+  {
+    "name": "High-Performance Gaming Headset",
+    "model": "GamePro-2023",
+    "pImage": "https://example.com/gaming_headset.jpg",
+    "price": 89,
+    "color": "Carbon Black",
+    "inStock": 20,
+    "discount": 6,
+    "description": "Immerse yourself in gaming with this high-performance gaming headset featuring surround sound and a comfortable design."
+  },
+  {
+    "name": "Smart Doorbell Camera",
+    "model": "SecureView-2023",
+    "pImage": "https://example.com/smart_doorbell_camera.jpg",
+    "price": 159,
+    "color": "Silver",
+    "inStock": 22,
+    "discount": 8,
+    "description": "Enhance your home security with this smart doorbell camera that provides real-time video monitoring and two-way communication."
+  },
+  {
+    "name": "Portable Espresso Maker",
+    "model": "EspressoGo-2023",
+    "pImage": "https://example.com/portable_espresso_maker.jpg",
+    "price": 79,
+    "color": "Black",
+    "inStock": 16,
+    "discount": 10,
+    "description": "Enjoy your favorite espresso on the go with this compact and portable espresso maker for coffee lovers."
+  },
+  {
+    "name": "High-Performance Gaming Laptop",
+    "model": "GamePro-2023",
+    "pImage": "https://example.com/gaming_laptop.jpg",
+    "price": 1299,
+    "color": "RGB Backlit",
+    "inStock": 8,
+    "discount": 15,
+    "description": "Unleash the power of gaming with this high-performance laptop featuring top-tier graphics and fast processing."
+  },
+  {
+    "name": "Smart Water Bottle",
+    "model": "HydroTech-2023",
+    "pImage": "https://example.com/smart_water_bottle.jpg",
+    "price": 49,
+    "color": "Blue",
+    "inStock": 25,
+    "discount": 5,
+    "description": "Stay hydrated and track your water intake with this smart water bottle that syncs with your smartphone for personalized hydration goals."
+  },
+  {
+    "name": "Ultra-Lightweight Backpack",
+    "model": "LitePack-2023",
+    "pImage": "https://example.com/ultra_lightweight_backpack.jpg",
+    "price": 69,
+    "color": "Olive Green",
+    "inStock": 19,
+    "discount": 7,
+    "description": "Travel with ease using this"
+  },
+
+  {
+    "name": "Noise-Canceling Headphones",
+    "model": "QuietBeat-2023",
+    "pImage": "https://example.com/noise_canceling_headphones.jpg",
+    "price": 149,
+    "color": "Midnight Blue",
+    "inStock": 15,
+    "discount": 8,
+    "description": "Immerse yourself in crystal-clear sound with these premium noise-canceling headphones for a superior audio experience."
+  },
+  {
+    "name": "Smart Doorbell Camera",
+    "model": "SecureView-2023",
+    "pImage": "https://example.com/smart_doorbell_camera.jpg",
+    "price": 199,
+    "color": "Graphite",
+    "inStock": 12,
+    "discount": 10,
+    "description": "Enhance your home security with this smart doorbell camera featuring HD video, two-way audio, and motion detection."
+  },
+  {
+    "name": "Indoor Plants Collection",
+    "model": "GreenHaven-2023",
+    "pImage": "https://example.com/indoor_plants.jpg",
+    "price": 69,
+    "color": "Assorted",
+    "inStock": 25,
+    "discount": 5,
+    "description": "Bring nature indoors with this curated collection of vibrant and easy-to-care-for indoor plants."
+  },
+  {
+    "name": "Compact Travel Backpack",
+    "model": "JourneyLite-2023",
+    "pImage": "https://example.com/travel_backpack.jpg",
+    "price": 79,
+    "color": "Olive Green",
+    "inStock": 18,
+    "discount": 7,
+    "description": "Travel light and organized with this compact and durable travel backpack, perfect for your next adventure."
+  },
+  {
+    "name": "Smart Water Bottle",
+    "model": "HydroSync-2023",
+    "pImage": "https://example.com/smart_water_bottle.jpg",
+    "price": 49,
+    "color": "Coral Pink",
+    "inStock": 20,
+    "discount": 6,
+    "description": "Stay hydrated with this smart water bottle that reminds you to drink water and tracks your daily hydration goals."
+  }
+]

@@ -1,10 +1,16 @@
-<p>binding works!</p>
-<h1>{{data.name}}</h1>
-<img class="iphone" src="assets/iphone.png" alt="Nothing">
-<p>Model: {{data.name}} {{data.model}}</p>
-<p>Price: {{data.price}}$</p>
-<p>Quantity: {{data.quantity}}</p>
-
-<h3 *ngIf="needBy !=0">Added: {{needBy}} x ${{data.price}} Total: ${{needBy*data.price}}</h3>
-<button *ngIf="needBy !=data.quantity" class="more" (click)="more()">+</button>
-<button *ngIf="needBy !=0" class="less" (click)="less()">-</button>
+<app-search (onSearchChanged)="onSearchChanged($event)"></app-search>
+<app-in-stock-filter
+  [countInCategory]="countExisting(products)"
+  (selectedButtonFilterChanged)="onFilterChanged($event)"></app-in-stock-filter>
+<div class="products_flex-container">
+  <div *ngFor="let product of products">
+    <app-product
+      [product]="product"
+      [searchString]="searchString"
+      *ngIf="
+        filterValue === FilterOptionsNamesEnum.ALL ||
+        (filterValue === FilterOptionsNamesEnum.IN_STOCK && product.inStock > 0) ||
+        (filterValue === FilterOptionsNamesEnum.OUT_OF_STOCK && product.inStock === 0)
+      "></app-product>
+  </div>
+</div>

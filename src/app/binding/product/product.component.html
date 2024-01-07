@@ -1,0 +1,29 @@
+<div
+  class="product-cart"
+  *ngIf="
+    searchString === '' ||
+    searchString === undefined ||
+    product.name.includes(searchString)
+  ">
+  <div class="img-container">
+    <img [src]="currentPhoto" alt="Nothing" />
+    <div class="overlay-picture">
+      <div class="discount" *ngIf="product.discount">-{{ product.discount }}%</div>
+      <div class="price-container">
+        <div [class]="product.discount ? 'price-old' : 'price'">
+          $ {{ product.price }}
+        </div>
+        <div *ngIf="product.discount" class="new-price">
+          $ {{ calculatePriseWithDiscount() }}
+        </div>
+      </div>
+    </div>
+  </div>
+  <p>{{ product.name }}</p>
+  <p>{{ product.modelId }}</p>
+  <p *ngIf="product.inStock > 1">Available {{ product.inStock }} items</p>
+</div>
+
+<!--<h3 *ngIf="count !=0">Added: {{count}} x ${{product.price}} Total: ${{count*product.price}}</h3>-->
+<!--<button *ngIf="count !=product.inStock" class="more" (click)="incrementOrderCount()">+</button>-->
+<!--<button *ngIf="count !=0" class="less" (click)="decrementOrderCount()">-</button>-->

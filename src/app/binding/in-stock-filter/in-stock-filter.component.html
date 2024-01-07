@@ -1,0 +1,26 @@
+<div class="filter-container">
+  <input
+    type="radio"
+    name="filter"
+    [value]="FilterOptionsNamesEnum.ALL"
+    [(ngModel)]="selectedFilteredButton"
+    (change)="onSelectedButtonFilterChanged()" />
+  <span>{{ FilterOptionsNamesEnum.ALL }} ({{ countInCategory.all }})</span>
+  <input
+    type="radio"
+    name="filter"
+    [value]="FilterOptionsNamesEnum.IN_STOCK"
+    [(ngModel)]="selectedFilteredButton"
+    (change)="onSelectedButtonFilterChanged()" />
+  <span>{{ FilterOptionsNamesEnum.IN_STOCK }} ({{ countInCategory.inStock }})</span>
+  <input
+    type="radio"
+    name="filter"
+    [value]="FilterOptionsNamesEnum.OUT_OF_STOCK"
+    [(ngModel)]="selectedFilteredButton"
+    (change)="onSelectedButtonFilterChanged()" />
+  <span
+    >{{ FilterOptionsNamesEnum.OUT_OF_STOCK }} ({{ countInCategory.outOfStock }})</span
+  >
+</div>
+<div>v{{ selectedFilteredButton }}</div>
